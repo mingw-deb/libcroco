@@ -1,0 +1,21 @@
+From b3230f4fe1ed8f1d092279e41bf53a266bddab73 Mon Sep 17 00:00:00 2001
+From: Ignacio Casal Quinteiro <icq@gnome.org>
+Date: Thu, 6 Apr 2017 15:33:08 +0200
+Subject: Post release version bump
+
+---
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/configure.ac b/configure.ac
+index 9ff56d5..7b0495b 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -1,6 +1,6 @@
+ dnl Process this file with autoconf to produce a configure script.
+ AC_PREREQ(2.64)
+-AC_INIT([libcroco],[0.6.12],[http://bugzilla.gnome.org/enter_bug.cgi?product=libcroco],[libcroco])
++AC_INIT([libcroco],[0.6.13],[http://bugzilla.gnome.org/enter_bug.cgi?product=libcroco],[libcroco])
+ AC_CONFIG_SRCDIR([src/cr-input.c])
+ AC_CANONICAL_HOST
+ 

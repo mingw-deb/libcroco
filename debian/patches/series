@@ -1,0 +1,4 @@
+0001-Post-release-version-bump.patch
+0002-input-check-end-of-input-before-reading-a-byte.patch
+0003-tknzr-remove-unneeded-assign.patch
+0004-tknzr-support-only-max-long-rgb-values.patch
