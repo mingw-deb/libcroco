@@ -1,0 +1,5 @@
+mingw-w64-libcroco (0.6.12-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Tobias Schlemmer <keinstein@users.berlios.de>  Wed, 24 Jan 2018 18:07:35 +0100
