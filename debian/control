@@ -1,22 +1,25 @@
 Source: mingw-w64-libcroco
 Priority: optional
 Maintainer: Tobias Schlemmer <keinstein@users.berlios.de>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9), autotools-dev,
+	       git, intltool, gtk-doc,
+ 	       gcc-mingw-w64, g++-mingw-w64 (>= 1.7.1),
+	       glib2-mingw-w64, libxml2-mingw-w64
+Standards-Version: 4.1.1
 Section: libs
-Homepage: <insert the upstream URL, if relevant>
+Homepage: http://www.gnome.org/browse/libcroco
 #Vcs-Git: https://anonscm.debian.org/collab-maint/mingw-w64-libcroco.git
 #Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/mingw-w64-libcroco.git
 
-Package: mingw-w64-libcroco-dev
+Package: libcroco-mingw-w64-dev
 Section: libdevel
 Architecture: any
-Depends: mingw-w64-libcrocoBROKEN (= ${binary:Version}), ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: libcroco1-mingw-w64 (= ${binary:Version}), ${misc:Depends}
+Description: GNOME CSS2 parsing and manipulation toolkit (mingw-w64 development)
+ This package contains the files that are needed for compiling other programs.
 
-Package: mingw-w64-libcrocoBROKEN
+Package: libcroco1-mingw-w64
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: GNOME CSS2 parsing and manipulation toolkit (mingw-w64 runtime)
+ This package contains the dynamic libarries.
